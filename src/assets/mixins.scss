@@ -1,0 +1,20 @@
+@mixin border_radius_10 {
+    border-radius: 10px;
+}
+@mixin flex($jc, $ai, $wr) {
+    display: flex;
+    -webkit-box-pack: $jc;
+    -ms-flex-pack: $jc;
+            justify-content: $jc;
+    -webkit-box-align: $ai;
+    -ms-flex-align: $ai;
+            align-items: $ai;
+    -ms-flex-wrap: $wr;
+        flex-wrap: $wr;
+}
+@mixin flex_direction_column {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}

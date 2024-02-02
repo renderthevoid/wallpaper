@@ -1,0 +1,14 @@
+$bg_color: #1E1E1E;
+$text_color: #FFF;
+$text_color_secondary: rgba(222, 222, 222, 0.8);
+$component_color: #2B2B2B;
+$error_primary: #EB4747;
+$error_secondary: #F05454;
+$btn_primary: #007AFF;
+$btn_secondary: #007affcc;
+$btn_disable: #007aff4d;
+$btn_text_ready: #ffffff66;
+$success_primary: #3FA796CC;
+$warn_primary: #3492c8cc;
+
+@import "./mixins.scss";

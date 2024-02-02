@@ -1,0 +1,25 @@
+@import "./normalize.scss";
+@import "./base.scss";
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: $text_color;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bg_color;
+}
+a {
+    text-decoration: none;
+}
+#app {
+    height: 100%;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 162px;
+}
