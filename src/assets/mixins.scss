@@ -1,6 +1,9 @@
 @mixin border_radius_10 {
     border-radius: 10px;
 }
+@mixin border_radius_5 {
+    border-radius: 5px;
+}
 @mixin flex($jc, $ai, $wr) {
     display: flex;
     -webkit-box-pack: $jc;
